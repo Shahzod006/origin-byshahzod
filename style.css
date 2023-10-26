@@ -22,7 +22,7 @@ li {
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 17px auto;
+    margin: 17px;
 }
 
 .nav-links {
@@ -81,15 +81,22 @@ li {
     display: none;
 }
 
+.bread480 {
+    display: none;
+}
+
 .mental1024 {
     display: none;
 }
+
 .mental744 {
     display: none;
 }
+
 .metal480 {
     display: none;
 }
+
 .head-left {
     display: flex;
     flex-direction: row;
@@ -223,11 +230,13 @@ li {
     /* 150% */
     letter-spacing: 0.1px;
 }
+
 .right {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 8px;
 }
+
 .right02 {
     display: none;
 }
@@ -238,6 +247,7 @@ li {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    padding: 96px 0px;
     justify-content: center;
 }
 
@@ -343,10 +353,12 @@ footer {
     color: white;
     background: var(--Black, #000);
 }
+
 .all-foot {
     display: flex;
     gap: 110px;
 }
+
 .center-foot {
     display: flex;
     flex-direction: column;
@@ -382,7 +394,7 @@ footer {
     }
 
     .navbar {
-        margin-top: 10px;
+        margin: 17px;
     }
 
     .menu {
@@ -414,6 +426,10 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .bread1440 {
+        display: none;
     }
 
     .bread1024 {
@@ -575,6 +591,22 @@ footer {
     .right02 {
         display: none;
     }
+
+    .all-foot {
+        display: flex;
+        gap: 70px;
+    }
+
+    footer {
+        display: flex;
+        padding: 96px 30px;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        align-self: stretch;
+        color: white;
+        background: var(--Black, #000);
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -723,6 +755,7 @@ footer {
     .right-foot img {
         display: none;
     }
+
     .right-foot p {
         color: #FFF;
         font-family: Inter;
