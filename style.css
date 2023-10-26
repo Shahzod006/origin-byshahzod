@@ -186,7 +186,7 @@ li {
 .second-section {
     display: flex;
     flex-direction: row;
-    padding: 96px 0px;
+    padding: 96px 52px;
     gap: 133px;
     background: #000;
 }
@@ -223,7 +223,11 @@ li {
     /* 150% */
     letter-spacing: 0.1px;
 }
-
+.right {
+    display: flex; 
+    flex-direction: column;
+    gap: 8px;
+}
 .right02 {
     display: none;
 }
