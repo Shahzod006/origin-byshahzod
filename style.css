@@ -598,6 +598,7 @@ footer {
     .container {
         max-width: 480px;
         margin: 0 auto;
+        padding-left: 19px;
     }
 
     .navbar {
@@ -607,7 +608,9 @@ footer {
     .left-head br {
         display: none;
     }
-
+.metal480 {
+    display: flex;
+}
     .head-left {
         display: flex;
         flex-direction: column;
@@ -715,7 +718,7 @@ footer {
 
     .left-foot {
         display: flex;
-        width: 470px;
+        max-width: 470px;
         justify-content: center;
     }
 
@@ -755,11 +758,12 @@ footer {
     .container {
         max-width: 400px;
         margin: 0 auto;
+        padding-left: 19px;
     }
 
     .left-foot {
         display: flex;
-        width: 374px;
+        max-width: 374px;
         justify-content: center;
     }
 }
