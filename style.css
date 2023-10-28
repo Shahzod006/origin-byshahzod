@@ -153,6 +153,7 @@ li {
 
 .first-sct-text {
     background: var(--Anti-Flash-White, #F3F3F3);
+    margin: 0px 20px 0px;
 }
 
 .iconc {
@@ -608,9 +609,11 @@ footer {
     .left-head br {
         display: none;
     }
-.metal480 {
-    display: flex;
-}
+
+    .metal480 {
+        display: flex;
+    }
+
     .head-left {
         display: flex;
         flex-direction: column;
@@ -711,7 +714,7 @@ footer {
     footer {
         display: grid;
         padding: 96px 0;
-
+        justify-content: center;
         color: white;
         background: var(--Black, #000);
     }
